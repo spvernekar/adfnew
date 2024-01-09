@@ -1,0 +1,9 @@
+{
+	"name": "LearnAZDbricks",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "78f8f80a-1afa-4513-abff-c616c016c690",
+		"tenantId": "595e287a-a1fc-40c2-bd40-00ac794e32f4"
+	}
+}
