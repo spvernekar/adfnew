@@ -70,7 +70,13 @@
 				"inputs": [
 					{
 						"referenceName": "dbastoragekp",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": {
+								"value": "@variables('landingfld')",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
