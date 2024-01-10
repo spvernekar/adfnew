@@ -82,7 +82,10 @@
 				"outputs": [
 					{
 						"referenceName": "sqldataset",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"dbnameparam": "@variables('dbname')"
+						}
 					}
 				]
 			}
