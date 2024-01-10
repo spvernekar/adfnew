@@ -19,6 +19,13 @@
 						"referenceName": "Binary1",
 						"type": "DatasetReference"
 					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "AzureBlobStorage1",
+							"type": "LinkedServiceReference"
+						},
+						"path": "stange"
+					},
 					"enableLogging": true,
 					"storeSettings": {
 						"type": "AzureFileStorageReadSettings",
