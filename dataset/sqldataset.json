@@ -5,6 +5,11 @@
 			"referenceName": "linked_sqlaccountdb",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"dbnameparam": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
