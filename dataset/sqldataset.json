@@ -3,7 +3,10 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "linked_sqlaccountdb",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"dbaparals": "dba"
+			}
 		},
 		"parameters": {
 			"dbnameparam": {
