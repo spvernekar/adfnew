@@ -30,7 +30,6 @@
 					"storeSettings": {
 						"type": "AzureFileStorageReadSettings",
 						"recursive": true,
-						"wildcardFileName": "%t%",
 						"enablePartitionDiscovery": false
 					}
 				}
