@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "LearnAZDbricks"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase817_properties_privateLinkResourceId": {
+			"value": "/subscriptions/8156a26c-242e-49d2-8fe5-422f7ed78566/resourceGroups/generalrs/providers/Microsoft.Sql/servers/ssisserverbox"
+		},
+		"AzureSqlDatabase817_properties_groupId": {
+			"value": "sqlServer"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
