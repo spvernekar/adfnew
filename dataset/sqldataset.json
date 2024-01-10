@@ -5,7 +5,10 @@
 			"referenceName": "linked_sqlaccountdb",
 			"type": "LinkedServiceReference",
 			"parameters": {
-				"dbaparals": "dba"
+				"dbaparals": {
+					"value": "@dataset().dbnameparam",
+					"type": "Expression"
+				}
 			}
 		},
 		"parameters": {
