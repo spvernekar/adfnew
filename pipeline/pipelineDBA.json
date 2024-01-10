@@ -94,7 +94,7 @@
 			},
 			"landingfld": {
 				"type": "String",
-				"defaultValue": "landingfolder"
+				"defaultValue": "staging"
 			}
 		},
 		"annotations": []
