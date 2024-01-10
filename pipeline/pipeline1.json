@@ -28,7 +28,7 @@
 					},
 					"enableLogging": true,
 					"storeSettings": {
-						"type": "AzureFileStorageReadSettings",
+						"type": "AzureBlobFSReadSettings",
 						"recursive": true,
 						"enablePartitionDiscovery": false
 					}
